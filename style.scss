@@ -1,0 +1,10 @@
+@mixin flexcenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    @include flexcenter();
+    margin-bottom: 0;
+}
